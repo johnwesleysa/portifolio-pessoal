@@ -1,0 +1,43 @@
+.Frame1 {
+     background-color: var(--background-white);
+     display: flex;
+     
+}
+
+.Frame1Black {
+     background-color: var(--background-black);
+     color:white;
+     padding-left: 70px;
+     padding-right: 70px;
+     width: 60%;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: left;
+     flex-wrap: wrap;
+     z-index: 1;
+     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+     
+     
+}
+
+.Frame1Black h1 {
+     font-weight: 700;
+     font-size: 80px;
+}
+
+.Frame1Black p {
+     font-weight: 200;
+     font-size: 26px;
+}
+
+.Frame1Black h4 {
+     font-weight: 600;
+     margin-top: 60px;
+}
+
+.Frame1White {
+     background-color: var(--background-white);
+     padding: 40px;
+}
+
