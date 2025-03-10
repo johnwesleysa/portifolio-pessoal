@@ -57,7 +57,7 @@
      display: flex;
      font-size: 25px;
      padding-top: 20px;
-     padding-left: 300px;
+     padding-left: 200px;
 }
 
 .Frame1BlackHeader ul li {
@@ -181,7 +181,7 @@
 
 .Frame2BlackContent ul {
      list-style: none;
-     font-size: 20px;
+     font-size: 16px;
 }
 
 .Frame2BlackContent ul a {
