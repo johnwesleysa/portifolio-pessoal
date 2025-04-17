@@ -353,3 +353,128 @@
 .Frame4BlackContent li {
      padding-bottom: 10px;
 }
+
+@media screen and (max-width: 768px) {
+
+     
+
+     .menuDesktop {
+       display: none !important;
+       visibility: hidden;
+       opacity: 0;
+       height: 0;
+       width: 0;
+       overflow: hidden;
+       pointer-events: none;
+       position: absolute;
+     }
+   
+     .menuToggle {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 5px;
+       background-color: white;
+       border: none;
+       border-radius: 50%;
+       width: 45px;
+       height: 45px;
+       position: absolute;
+       top: 20px;
+       right: 20px;
+       z-index: 100;
+       cursor: pointer;
+       padding: 0;
+       box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+     }
+   
+     .bar {
+       width: 22px;
+       height: 2px;
+       background-color: black;
+       border-radius: 1px;
+     }
+   
+     .Frame1Black h1 {
+       display: none;
+     }
+   
+     .Frame1, .Frame2, .Frame3, .Frame4 {
+       flex-direction: column;
+     }
+   
+     .Frame1Black, .Frame2White, .Frame3Black, .Frame4White {
+       width: 100%;
+       padding: 20px;
+       height: auto;
+       justify-content: center;
+       text-align: center;
+     }
+   
+     .Frame1BlackHeader {
+       flex-direction: column;
+       position: static;
+       align-items: center;
+       gap: 20px;
+       padding-top: 20px;
+     }
+   
+     .Frame1BlackHeader ul {
+       padding-left: 0;
+       flex-direction: column;
+       align-items: center;
+       font-size: 20px;
+     }
+   
+     .Frame1Image {
+       position: static;
+       transform: none;
+       width: 250px;
+       height: 250px;
+       margin: 20px auto;
+     }
+   
+     .Frame2Black,
+     .Frame3White,
+     .Frame4Black {
+       width: 100%;
+       padding: 20px;
+       height: auto;
+       justify-content: center;
+       text-align: center;
+       flex-wrap: wrap;
+     }
+   
+     .Frame2WhiteContent h1,
+     .Frame2BlackContent h1,
+     .Frame3BlackContent h1,
+     .Frame3WhiteContent h1,
+     .Frame4WhiteContent h1,
+     .Frame4BlackContent h1 {
+       font-size: 40px;
+     }
+   
+     .Frame2WhiteContent ul,
+     .Frame2BlackContent ul,
+     .Frame3BlackContent ul,
+     .Frame3WhiteContent ul,
+     .Frame4WhiteContent ul,
+     .Frame4BlackContent ul {
+       font-size: 16px;
+     }
+   
+     .Frame1Black p {
+       font-size: 18px;
+     }
+   
+     .scrollToTopButton {
+       bottom: 15px;
+       right: 15px;
+       width: 40px;
+       height: 40px;
+     }
+   }
+   
+     
+   
